@@ -51,7 +51,7 @@ def upload_and_process_image():
             "messages": [
                 {
                     "role": "user",
-                    "content": "Analyze the image and extract all details about the product. Describe its brand name, visible logos, colors, text, patterns, materials, and textures. Include all written information on the product, such as fonts, font sizes, and styles. Identify design elements, shapes, and any distinguishing features, ensuring the description is accurate and comprehensive. Avoid mentioning location, environment,background or lighting.",
+                    "content": "Describe the product in the image with ultra-high precision, including brand name, logo details, visible texts (fonts, sizes, colors), material (glossy, matte, metal, etc.), design elements (patterns, shapes, textures), colors, approximate size, and unique features, then write this in the format of a realistic image generation prompt: 'Imagine [product name] placed in a dark arcade hall under a single spotlight, with the rest of the environment in shadows; the lighting highlights all details, such as [texts, brand elements, design features, material, and colors], creating a photorealistic and ultra-detailed scene that naturally emphasizes the product's intricate details and craftsmanship.",
                     "img_url": enhanced_image_url
                 }
             ]
