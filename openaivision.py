@@ -15,7 +15,7 @@ cloudinary.config(
 )
 
 # RapidAPI credentials
-RAPIDAPI_KEY = "c66b66fd5fmsh2d1f2d4c5d0a073p17161ajsnb75f8dbbac1d"
+RAPIDAPI_KEY = "bc4551ab84msh6733c61fc21c591p1d72c2jsnad99d9c3dd43"
 RAPIDAPI_HOST = "chatgpt-vision1.p.rapidapi.com"
 
 
