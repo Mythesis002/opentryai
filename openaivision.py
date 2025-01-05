@@ -16,7 +16,7 @@ cloudinary.config(
 
 # RapidAPI credentials
 RAPIDAPI_KEY = "bc4551ab84msh6733c61fc21c591p1d72c2jsnad99d9c3dd43"
-RAPIDAPI_HOST = "chatgpt-vision1.p.rapidapi.com"
+RAPIDAPI_HOST = "chatgpt-42.p.rapidapi.com"
 
 
 @app.route('/upload_and_process', methods=['POST'])
@@ -63,7 +63,7 @@ def upload_and_process_image():
             "Content-Type": "application/json"
         }
 
-        response = requests.post("https://chatgpt-vision1.p.rapidapi.com/matagvision", json=payload, headers=headers)
+        response = requests.post("https://chatgpt-42.p.rapidapi.com/matagvision", json=payload, headers=headers)
 
         if response.status_code == 200:
             result = response.json()
